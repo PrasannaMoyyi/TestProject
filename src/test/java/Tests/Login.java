@@ -22,11 +22,11 @@ public class Login {
         //click on sign in button
         act.moveToElement(accountAndLists).moveToElement(signInButton).click().build().perform();
         //Enter username
-        driver.findElement(By.id("ap_email")).sendKeys("917730930345");
+        driver.findElement(By.id("ap_email")).sendKeys("");
         //click on continue
         driver.findElement(By.xpath("//*[@id='continue']")).click();
         //Enter password
-        driver.findElement(By.xpath("//*[@id='ap_password']")).sendKeys("kakslauttanen01");
+        driver.findElement(By.xpath("//*[@id='ap_password']")).sendKeys("");
         //click on sign-in
         driver.findElement(By.id("signInSubmit")).click();
 
